@@ -40,5 +40,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        if: (github.event_name == 'push' || github.event.inputs.publish == 'true')
         id: deployment
         uses: actions/deploy-pages@v1
