@@ -1,12 +1,15 @@
 title: Creek Service
-description: Quickly build & test an ecosystem of microservices
+description: >-
+  Quickly build & test an ecosystem of JVM based microservices, 
+  using Kafka clients, Kafka Streams and more.
+url: "https://www.creekservice.org"
+source: https://github.com/creek-service/creek-service.github.io
 
 lsi: false
 safe: true
-source: https://github.com/creek-service/creek-service.github.io
-incremental: true
-highlighter: rouge
 remote_theme: pages-themes/slate@v0.2.0
+highlighter: rouge
+incremental: true
 gist:
   noscript: false
 kramdown:
