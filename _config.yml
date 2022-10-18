@@ -1,9 +1,12 @@
+title: Creek Service
+description: Quickly build & test an ecosystem of microservices
+
 lsi: false
 safe: true
 source: https://github.com/creek-service/creek-service.github.io
 incremental: true
 highlighter: rouge
-remote_theme: pages-themes/tactile@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 gist:
   noscript: false
 kramdown:
