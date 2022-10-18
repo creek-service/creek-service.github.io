@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 <h1>Creek Service</h1>
 
 {% for repository in site.github.public_repositories %}
