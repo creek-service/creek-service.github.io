@@ -1,5 +1,6 @@
 ---
 title: Extending Creek
+permalink: /extension/
 description: How to extend Creek functionality
 ---
 
