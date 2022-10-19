@@ -4,6 +4,14 @@ permalink: /about/
 layout: default
 ---
 
+## Contact
+
+If you wish to get in touch with Creek, then please raise an issue on GitHub.
+If your reason for getting in touch doesn't pertain to a particular Creek library, 
+then [raise an issue on `creek-service` repo][creek-raise-issue].  
+
+## Creek Story
+
 While working with a stealth startup, building a cloud based financial platform that leveraged the power 
 of [Kafka][kafka] and [Kafka Streams][kafka-streams] based containerised microservices, 
 two things quickly became apparent.
@@ -30,3 +38,4 @@ Being originally focused on Kafka Streams based microservices... a *creek* is a 
 [kafka]: https://kafka.apache.org/documentation/
 [kafka-streams]: https://kafka.apache.org/documentation/streams/
 [docker]: https://www.docker.com/
+[creek-raise-issue]: https://github.com/creek-service/creek-service/issues/new/choose
