@@ -5,16 +5,15 @@ description: >-
 url: "https://www.creekservice.org"
 org_gituhub_url: "https://github.com/creek-service"
 
+markdown: GFM
 lsi: false
 safe: true
 remote_theme: pages-themes/slate@v0.2.0
 highlighter: rouge
 incremental: true
+strict_front_matter: true
 gist:
   noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
 
 plugins:
   - jekyll-remote-theme
