@@ -23,7 +23,13 @@ cd creek-service.github.io
 #### 2. Install the gems
 
 ```shell
+git checkout main
+git pull
 bundle install
+git checkout -b github-pages-update
+git add .
+git commit -m "updating github-pages gem"
+git push 
 ```
 This will install Jekyll itself and any other gems that are needed.
 
