@@ -24,7 +24,8 @@ microservices.
 
 ## What's with the name?
 
-Being originally focused on Kafka Streams based microservices... a *creek* is a small, a.k.a. micro, stream.  
+Being originally focused on Kafka Streams based microservices... a *creek* is a small stream;
+'small' gives us 'micro(service)'; giving us and streams based microservice. Ta da!
 
 [kafka]: https://kafka.apache.org/documentation/
 [kafka-streams]: https://kafka.apache.org/documentation/streams/

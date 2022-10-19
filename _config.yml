@@ -3,7 +3,7 @@ description: >-
   Quickly build & test an ecosystem of JVM based microservices, 
   using Kafka clients, Kafka Streams and more.
 url: "https://www.creekservice.org"
-source: https://github.com/creek-service/creek-service.github.io
+org_gituhub_url: "https://github.com/creek-service"
 
 lsi: false
 safe: true
@@ -19,3 +19,9 @@ kramdown:
 plugins:
   - jekyll-remote-theme
   - jekyll-github-metadata
+
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile*
