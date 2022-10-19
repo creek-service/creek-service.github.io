@@ -24,24 +24,24 @@ cd creek-service.github.io
 #### 2. Install the gems
 
 ```shell
-git checkout main
-git pull
 bundle install
-git checkout -b github-pages-update
-git add .
-git commit -m "updating github-pages gem"
-git push 
 ```
 This will install Jekyll itself and any other gems that are needed.
 
 #### 3. Update `github-pages` gem
 
-The `github-pages` gem is regularly updated. 
+The `github-pages` gem is regularly updated.
 If out of date, the site may look different locally compared to when deployed on GitHub.
 Update the gem and check in any changes.
 
 ```shell
+git checkout main
+git pull
 bundle update github-pages
+git checkout -b github-pages-update
+git add .
+git commit -m "updating github-pages gem"
+git push --set-upstream origin github-pages-update
 ```
 
 #### 4. Run the local server
@@ -49,5 +49,6 @@ bundle update github-pages
 ```shell
 bundle exec jekyll serve --livereload --baseurl /creek
 ```
+
 This will launch a web server so that you can work on the site locally. 
 Check it out on [http://localhost:4000/creek](http://localhost:4000/creek).
