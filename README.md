@@ -28,7 +28,17 @@ bundle install
 ```
 This will install Jekyll itself and any other gems that are needed.
 
-#### 3. Run the local server
+#### 3. Update `github-pages` gem
+
+The `github-pages` gem is regularly updated. 
+If out of date, the site may look different locally compared to when deployed on GitHub.
+Update the gem and check in any changes.
+
+```shell
+bundle update github-pages
+```
+
+#### 4. Run the local server
 
 ```shell
 bundle exec jekyll serve --livereload --baseurl /creek
