@@ -13,7 +13,7 @@ then [raise an issue on `creek-service` repo][creek-raise-issue].
 ## Creek Story
 
 While working with a stealth startup, building a cloud based financial platform that leveraged the power 
-of [Kafka][kafka] and [Kafka Streams][kafka-streams] based containerised microservices, 
+of [Kafka][kafka] and [Kafka Streams][kafka-streams] containerised microservices, 
 two things quickly became apparent.
 
 First, developers were spending a LOT of time writing boilerplate code and dealing with low-level details
