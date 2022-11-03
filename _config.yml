@@ -4,6 +4,7 @@ description: >-
   using Kafka clients, Kafka Streams and more.
 url: "https://www.creekservice.org"
 org_gituhub_url: "https://github.com/creek-service"
+google_analytics: G-CZC5Z8YNH8
 
 markdown: GFM
 lsi: false
