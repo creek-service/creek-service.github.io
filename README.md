@@ -2,6 +2,12 @@
 
 This GitHub repo has the source code for the root [Creek Service](https://www.creekservice.org) site.
 
+The root is a folk of [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes):
+an awesome Jekyll theme, that's been modified to create a theme for the Creek site.
+
+The `docs` folder contains the root [www.creekservice.org](https://www.creekservice.org) site.
+
+
 ## Setup
 
 If you want to hack about with the site or add content, then follow these instructions to be able to run locally.
@@ -50,5 +56,5 @@ git push --set-upstream origin github-pages-update
 bundle exec jekyll serve --livereload --baseurl /creek
 ```
 
-This will launch a web server so that you can work on the site locally. 
+This will launch a web server so that you can work on the site locally.
 Check it out on [http://localhost:4000/creek](http://localhost:4000/creek).
