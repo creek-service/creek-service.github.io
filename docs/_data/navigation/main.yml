@@ -3,9 +3,10 @@
   url: /docs/quick-start-guide/
 - title: "About"
   url: /about/
-- title: "Sample Posts"
-  url: /year-archive/
-- title: "Sample Collections"
-  url: /collection-archive/
-- title: "Terms &amp; Privacy Policy"
-  url: /terms/
+# todo
+#- title: "Sample Posts"
+#  url: /year-archive/
+#- title: "Sample Collections"
+#  url: /collection-archive/
+#- title: "Terms &amp; Privacy Policy"
+#  url: /terms/

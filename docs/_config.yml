@@ -13,7 +13,6 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Creek Service" # custom title, default: "Creek Service"
 title_separator          : "-"
-subtitle                 : "Write business logic<br>Not boilerplate" # custom site tagline that appears below site title in masthead
 name                     : "Creek Service" # &name is a YAML anchor which can be *referenced later
 description              : "Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more."
 url                      : "https://www.creekservice.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -21,7 +20,8 @@ url                      : "https://www.creekservice.org" # the base hostname & 
 repository               : "creek-service/creek-service.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/creek-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Write business logic" # overrides the website title displayed in the masthead, use " " for no title
+subtitle                 : "Not boilerplate" # custom site tagline that appears below site title in masthead
 # breadcrumbs            : false # true, false (default)
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -220,6 +220,8 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+      toc: true
+      toc_sticky: true
   # _recipes
   - scope:
       path: ""

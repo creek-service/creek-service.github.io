@@ -5,7 +5,7 @@ excerpt: "License for Creek Service."
 toc: false
 ---
 
-The [Apache 2.0 License](http://www.apache.org/licenses/), January 2004 
+The [Apache 2.0 License](http://www.apache.org/licenses/), January 2004
 
 Copyright (c) 2013-{{ site.time | date: '%Y' }} Andrew Coates and contributors
 
