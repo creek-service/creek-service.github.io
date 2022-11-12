@@ -11,19 +11,22 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : # custom title, default: "Creek Service"
+title                    : "Creek Service" # custom title, default: "Creek Service"
 title_separator          : "-"
-subtitle                 : # custom site tagline that appears below site title in masthead
-name                     : # custom author
-description              : # custom description
-baseurl                  : # the subpath of your site, e.g. "/creek-service"
+subtitle                 : "Write business logic<br>Not boilerplate" # custom site tagline that appears below site title in masthead
+name                     : "Creek Service" # &name is a YAML anchor which can be *referenced later
+description              : "Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more."
+url                      : "https://www.creekservice.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "creek-service/creek-service.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/creek-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            :
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -82,46 +85,36 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         :
+    tracking_id          : "G-CZC5Z8YNH8"
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : # *name is a YAML reference pointing to the &anchor earlier
+  name             : "Andy Coates"
   avatar           : # "/assets/images/michael-rose.jpg"
-  bio              :
-  location         :
+  bio              : "Software engineer with a passion for building working, scalable, systems"
+  location         : "UK"
   links:
-    - label: "Made Mistakes"
+    - label: "Creek Service"
       icon: "fas fa-fw fa-link"
-      # url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/mmistakes"
+      url: "https://www.creekservice.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/mmistakes"
+      url: "https://github.com/big-andy-coates"
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/andrew-coates-33874a44"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/mmistakes"
-
+      url: "https://github.com/creek-service"
 
 # Reading Files
 include:
@@ -148,6 +141,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -204,16 +198,16 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false # true
       share: true
-      related: true
+      related: false # true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: ""
@@ -257,14 +251,14 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -316,8 +310,9 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
