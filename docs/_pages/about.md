@@ -12,9 +12,10 @@ While currently very much Kafka focused, its is built from the group up to be [e
 
 ## Contact
 
-If you wish to get in touch with Creek, then please raise an issue on GitHub.
-If your reason for getting in touch doesn't pertain to a particular Creek library,
-then [raise an issue on `creek-service` repo][creek-raise-issue].
+The best way to get help or get in touch is to start a discussion on GitHub.
+If unsure which Creek repository to start the discussion under, use [creek-service][creek-service-discussion]
+
+---
 
 ## Creek Story
 
@@ -22,7 +23,7 @@ While working with a stealth startup, building a cloud based financial platform 
 of [Kafka][kafka] and [Kafka Streams][kafka-streams] containerised microservices,
 two things quickly became apparent.
 
-First, developers were spending a LOT of time writing boilerplate code and dealing with low-level details
+First, developers were spending a _lot_ of time writing boilerplate code and dealing with low-level details
 when creating new services or extending existing ones, often more time than they spent writing the business logic
 of the service.
 
@@ -44,6 +45,6 @@ Being originally focused on Kafka Streams based microservices... a *creek* is a 
 [kafka]: https://kafka.apache.org/documentation/
 [kafka-streams]: https://kafka.apache.org/documentation/streams/
 [docker]: https://www.docker.com/
-[creek-raise-issue]: https://github.com/creek-service/creek-service/issues/new/choose
+[creek-service-discussion]: https://github.com/creek-service/creek-service/discussions/new
 
 Creek Service is designed, developed, and maintained by Andrew Coates. 
