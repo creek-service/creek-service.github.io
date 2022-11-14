@@ -10,7 +10,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: >
   Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more...<br />
-  <small><a href="https://github.com/creek-service/creek-service/releases/tag/v0.2.0">Alpha release v0.2.0</a></small>
+  <small><a href="https://github.com/creek-service/creek-service/releases/tag/v0.2.0">Alpha release v0.2.0 now available</a></small>
 feature_row:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Quick to develop"

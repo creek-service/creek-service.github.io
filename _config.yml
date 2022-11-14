@@ -21,9 +21,7 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  demos:
-    output: true
-    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -57,26 +55,5 @@ defaults:
         nav: "docs"
       toc: true
       toc_sticky: true
-  # _demos
-  - scope:
-      path: "_demos"
-      type: demos
-    values:
-      layout: single
-      read_time: true
-      author_profile: false
-      share: true
-      sidebar:
-        nav: "demos"
-      toc: true
-      toc_sticky: true
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
