@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -8,13 +9,15 @@
 theme             : "creek-jekyll-theme"
 
 # Site Settings
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "creek-service/creek-service.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+exclude:
+  - README.md
 
 # Collections
 collections:
