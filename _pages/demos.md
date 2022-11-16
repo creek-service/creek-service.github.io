@@ -12,9 +12,9 @@ excerpt: >
 row_1:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Basic Kafka Streams"
-    title: "Basic Kafka Streams microservice"
-    excerpt: "Get your head around the basics with this deliberately basic Kafka Streams microservice."
-    url: "/quick-dev/"
+    title: "Basic Kafka Streams"
+    excerpt: "Get your head around the basics with this basic Kafka Streams microservice demo."
+    url: "/basic-kafka-streams-demo/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
@@ -42,3 +42,8 @@ row_2:
 
 {% include feature_row id="row_1" %}
 {% include feature_row id="row_2" %}
+
+1. Click use template
+2. Fill in details
+3. Wait for bootstrap to run
+4. 

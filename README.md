@@ -17,7 +17,6 @@ If you want to hack about with the site or add content, then follow these instru
 1. Install Git, obviously.
 2. [Install Jekyll](https://jekyllrb.com/docs/installation)
 3. Install [Builder](https://bundler.io/) by running `gem install bundler`.
-4. Until [#752](https://github.com/github/pages-gem/issues/752) is resolved, run `bundle add webrick`.
 
 ### Installing
 
