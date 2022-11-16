@@ -1,7 +1,7 @@
 ---
 title: "Demos"
 layout: splash
-permalink: /demos
+permalink: /demos/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/nathan-anderson-8X1-pcDF8l0-unsplash.jpg
