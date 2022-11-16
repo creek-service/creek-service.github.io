@@ -4,13 +4,14 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/unsplash_stream_banner.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "<i class='fas fa-cog fa-spin'></i> Get started"
       url: "/docs/quick-start-guide/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.2.0 Alpha Release"
+      url: "/release/2022/11/15/v0.2.0-released.html"
 excerpt: >
   Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more...<br />
-  <small><a href="https://github.com/creek-service/creek-service/releases/tag/v0.2.0">Alpha release v0.2.0 now available</a></small>
 feature_row:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Quick to develop"

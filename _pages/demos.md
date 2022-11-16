@@ -42,8 +42,3 @@ row_2:
 
 {% include feature_row id="row_1" %}
 {% include feature_row id="row_2" %}
-
-1. Click use template
-2. Fill in details
-3. Wait for bootstrap to run
-4. 
