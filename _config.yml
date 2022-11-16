@@ -6,11 +6,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-theme             : "creek-jekyll-theme"
+theme: "creek-jekyll-theme"
 
 # Site Settings
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "creek-service/creek-service.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl: ""
+repository: "creek-service/creek-service.github.io"
 
 # Reading Files
 include:
@@ -24,7 +24,6 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -44,6 +43,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      read_time: false
+      share: false
   # _docs
   - scope:
       path: ""
@@ -58,5 +59,4 @@ defaults:
         nav: "docs"
       toc: true
       toc_sticky: true
-
 
