@@ -37,13 +37,12 @@ kafka_streams_row:
     btn_class: "btn--primary"
 ---
 
-It's early days, but we're hopeful other internally developed extensions to Creek will be built, 
-as well as extensions developed and shared by the community. 
-If you have an extension you'd like listed here, then please [get in touch][serviceDiscussion]! 
-
 ## Available extensions
 
 {% include feature_row id="kafka_row" type="left" %}
 {% include feature_row id="kafka_streams_row" type="right" %}
+
+Don't see the extension you need? Why not [build your own](/docs/extensions)!
+And if you have an extension you'd like listed here, then please [get in touch][serviceDiscussion]!
 
 [serviceDiscussion]: https://github.com/creek-service/creek-service/discussions/new
