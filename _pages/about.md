@@ -4,7 +4,7 @@ title: "About"
 ---
 
 Creek is an opinionated way of quickly building *and testing* an ecosystem of interconnected microservices.
-While currently very much Kafka focused, its is built from the group up to be [extendable]({{ "/extendable/" | relative_url }}).
+While currently very much Kafka focused, its is built from the group up to be [extendable](/docs/extensions/).
 
 [Get Started]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
 
