@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/maxim-tajer-x3S1aGQNgro-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Build your own"
+    - label: "<i class='fas fa-cog fa-spin'></i>&nbsp; Build your own"
       url: /docs/extensions/
 intro:
   excerpt: "Expand Creek's functionality with extensions"
@@ -22,7 +22,7 @@ kafka_row:
       Build &amp; test services that utilise Kafka Clients to consume and produce data to and from Kafka.
       <p>Apache Kafka is a real-time data streaming technology capable of handling trillions of events per day.
     url: /creek-kafka/
-    btn_label: "Read More"
+    btn_label: "<i class='fas fa-solid fa-book-open'></i>&nbsp; Read More"
     btn_class: "btn--primary"
 
 kafka_streams_row:
@@ -33,7 +33,7 @@ kafka_streams_row:
       Build &amp; test Kafka Streams based microservices.
       <p>Kafka Streams layers advanced event stream processing on top of Kafka.
     url: /creek-kafka/ # todo: differentiate this and the kafka link above.
-    btn_label: "Read More"
+    btn_label: "<i class='fas fa-solid fa-book-open'></i>&nbsp; Read More"
     btn_class: "btn--primary"
 ---
 

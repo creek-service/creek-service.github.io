@@ -4,6 +4,10 @@
       url: /docs/quick-start-guide/
 #    - title: "Upgrading"
 #      url: /docs/upgrading/
+- title: Creek components
+  children:
+    - title: "Descriptors"
+      url: /docs/descriptors
 - title: Extending Creek
   children:
     - title: "Existing extensions"

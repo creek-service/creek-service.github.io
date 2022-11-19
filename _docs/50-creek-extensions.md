@@ -10,7 +10,7 @@ Extended to support other data formats on Kafka,
 like the upcoming [JSON support](https://github.com/creek-service/creek-kafka/issues/25), 
 and to support different external services, such as databases or cloud services.
 
-[Available Extensions]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--primary .btn--large}
+[<i class='fas fa-cube'/>&nbsp; Available Extensions]({{ "/extensions/" | relative_url }}){: .btn .btn--primary .btn--large}
 
 It's early days, but we're hopeful other internally developed extensions to Creek will be built, 
 as well as extensions developed and shared by the community. 
