@@ -1,5 +1,5 @@
 ---
-title: "Demos"
+title: "Tutorials &amp; demos"
 layout: splash
 permalink: /demos/
 header:
@@ -7,16 +7,16 @@ header:
   overlay_image: /assets/images/nathan-anderson-8X1-pcDF8l0-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: >
-  Quickly get up and running with Creek with these demos 
+  Quickly get up and running with Creek with these tutorials &amp; demos
 
 row_1:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Basic Kafka Streams"
     title: "Basic Kafka Streams"
-    excerpt: "Get your head around the basics with this basic Kafka Streams microservice demo."
+    excerpt: "Get your head around the basics with this basic Kafka Streams microservice tutorial."
     url: "/basic-kafka-streams-demo/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "<i class='fas fa-cog fa-spin'></i>&nbsp; Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Service composition"
     title: "Service composition"
