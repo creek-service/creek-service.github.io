@@ -1,13 +1,13 @@
 ---
-title: "Tutorials &amp; demos"
+title: "Tutorials"
 layout: splash
-permalink: /demos/
+permalink: /tutorials/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/nathan-anderson-8X1-pcDF8l0-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: >
-  Quickly get up and running with Creek with these tutorials &amp; demos
+  Quickly get up and running with Creek with these tutorials
 
 row_1:
   - image_path: /assets/images/mm-responsive-feature.png
@@ -36,8 +36,8 @@ row_1:
 row_2:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "more coming"
-    title: "More demos coming soon..."
-    excerpt: "This site is currently under construction. More demos coming very soon!"
+    title: "More tutorials coming soon..."
+    excerpt: "This site is currently under construction. More tutorials coming very soon!"
 ---
 
 {% include feature_row id="row_1" %}
