@@ -2,8 +2,8 @@
   children:
     - title: "Quick-Start Guide"
       url: /docs/quick-start-guide/
-#    - title: "Upgrading"
-#      url: /docs/upgrading/
+    - title: "Aggregate Template"
+      url: /aggregate-template
 - title: Creek components
   children:
     - title: "Descriptors"

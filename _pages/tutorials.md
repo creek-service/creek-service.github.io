@@ -10,14 +10,14 @@ excerpt: >
   Quickly get up and running with Creek with these tutorials
 
 row_1:
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/creek-tutorial-ks-basics.png
     alt: "Basic Kafka Streams"
     title: "Basic Kafka Streams"
     excerpt: "Get your head around the basics with this basic Kafka Streams microservice tutorial."
     url: "/basic-kafka-streams-demo/"
     btn_class: "btn--primary"
-    btn_label: "<i class='fas fa-cog fa-spin'></i>&nbsp; Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+    btn_label: "<i class='fas fa-book-open'></i>&nbsp; Learn more"
+  - image_path: /assets/images/creek-tutorial-ks-connect-services.png
     alt: "Service composition"
     title: "Service composition"
     excerpt:  >
@@ -25,7 +25,7 @@ row_1:
       <br><br>**Coming soon...**
     btn_class: "btn--primary"
     btn_label: "Coming soon..."
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/creek-tutorial-ks-connect-aggregates.png
     alt: "Aggregate composition"
     title: "Aggregate composition"
     excerpt: >
