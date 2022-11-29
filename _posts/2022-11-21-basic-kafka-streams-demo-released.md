@@ -1,5 +1,5 @@
 ---
-title: "New tutorial: basic Kafka Streams"
+title: "New tutorial: Basic Kafka Streams"
 categories:
  - tutorial
  
