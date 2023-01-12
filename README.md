@@ -50,7 +50,7 @@ git push --set-upstream origin gems-update
 #### 4. Run the local server
 
 ```shell
-bundle exec jekyll serve --livereload --baseurl /creek
+bundle exec jekyll serve --livereload
 ```
 
 This will launch a web server so that you can work on the site locally.
