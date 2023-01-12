@@ -8,8 +8,8 @@ header:
   actions:
     - label: "<i class='fas fa-cog fa-spin'></i> Get started"
       url: "/docs/quick-start-guide/"
-    - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.2.0 Alpha Release"
-      url: "/release/2022/11/15/v0.2.0-released.html"
+    - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.3.0 Alpha Release"
+      url: "/releases/2023/01/12/v0.3.0-released.html"
 excerpt: >
   Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more...<br />
 feature_row:
