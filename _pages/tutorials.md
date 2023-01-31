@@ -13,7 +13,7 @@ row_1:
   - image_path: /assets/images/creek-tutorial-ks-basics.png
     alt: "Basic Kafka Streams"
     title: "Basic Kafka Streams"
-    excerpt: "Get your head around the basics with this basic Kafka Streams microservice tutorial."
+    excerpt: "Get your head around the basics: defining service inputs and outputs, streams topologies, unit & system testing, debugging & code coverage."
     url: "/basic-kafka-streams-demo/"
     btn_class: "btn--primary"
     btn_label: "<i class='fas fa-book-open'></i>&nbsp; Learn more"
