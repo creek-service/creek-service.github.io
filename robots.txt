@@ -1,1 +1,4 @@
-Sitemap: https://www.creekservice.org/sitemap_index.xml
+---
+layout: null
+---
+Sitemap: {{ site.url }}/sitemap_index.xml
