@@ -1,1 +1,1 @@
-Sitemap: https://www.creekservice.org/sitemap.xml
+Sitemap: https://www.creekservice.org/sitemap_index.xml
