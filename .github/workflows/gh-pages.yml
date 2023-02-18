@@ -45,7 +45,7 @@ jobs:
   # Deployment job
   deploy_pages:
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-    needs: build
+    needs: build_pages
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
