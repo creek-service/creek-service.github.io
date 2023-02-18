@@ -85,3 +85,7 @@ defaults:
       toc: true
       toc_sticky: true
 
+# List of other repos with docs to include in the site index:
+repos_with_docs:
+  - name: aggregate-template
+  - name: basic-kafka-streams-demo

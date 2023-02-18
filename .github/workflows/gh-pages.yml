@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: GitHub Pages
 
 on:
   push:
@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build_pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,9 +43,9 @@ jobs:
         uses: actions/upload-pages-artifact@253fd476ed429e83b7aae64a92a75b4ceb1a17cf # v1.0.7
 
   # Deployment job
-  deploy:
+  deploy_pages:
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-    needs: build
+    needs: build_pages
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
