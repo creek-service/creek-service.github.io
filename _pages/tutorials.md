@@ -3,9 +3,7 @@ title: "Tutorials"
 layout: splash
 permalink: /tutorials/
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/nathan-anderson-8X1-pcDF8l0-unsplash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/background-2.png
 excerpt: >
   Quickly get up and running with Creek with these tutorials
 

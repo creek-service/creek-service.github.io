@@ -2,16 +2,15 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/unsplash_stream_banner.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/background-1.png
   actions:
-    - label: "<i class='fas fa-cog fa-spin'></i> Get started"
+    - label: "<i class='fas fa-cog'></i> Get started"
       url: "/docs/quick-start-guide/"
     - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.3.2 Preview Release"
       url: "/releases/2023/02/16/v0.3.2-released.html"
-excerpt: >
-  Quickly build & test an ecosystem of JVM based microservices, using Kafka clients, Kafka Streams and more...<br />
+excerpt: |
+  Quickly build, test and link an ecosystem of microservices,  
+  using Apache Kafka clients, Kafka Streams and more...
 feature_row:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "Quick to develop"

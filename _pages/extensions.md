@@ -5,9 +5,8 @@ layout: splash
 excerpt: "Expand Creek's functionality with extensions"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/maxim-tajer-x3S1aGQNgro-unsplash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_filter: "0.1"
+  overlay_image: /assets/images/background-3.png
   actions:
     - label: "<i class='fas fa-cog fa-spin'></i>&nbsp; Build your own"
       url: /docs/extensions/

@@ -8,7 +8,7 @@ toc: false
 Creek may have initially been developed to work with Kafka, but it was designed to be extended! 
 Extended to support other data formats on Kafka, 
 like the upcoming [JSON support](https://github.com/creek-service/creek-kafka/issues/25), 
-and to support different external services, such as databases or cloud services.
+and to support different external services, such as databases, rest endpoints, or cloud services.
 
 [<i class='fas fa-cube'/>&nbsp; Available Extensions]({{ "/extensions/" | relative_url }}){: .btn .btn--primary .btn--large}
 
