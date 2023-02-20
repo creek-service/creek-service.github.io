@@ -42,7 +42,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs
+  - /_branding
 
 # Collections
 collections:
