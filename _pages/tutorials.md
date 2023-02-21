@@ -35,7 +35,7 @@ row_2:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "more coming"
     title: "More tutorials coming soon..."
-    excerpt: "This site is currently under construction. More tutorials coming very soon!"
+    excerpt: "More tutorials will be added over time"
 ---
 
 {% include feature_row id="row_1" %}

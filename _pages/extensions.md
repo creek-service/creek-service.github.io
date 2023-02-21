@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.1"
   overlay_image: /assets/images/background-3.png
   actions:
-    - label: "<i class='fas fa-cog fa-spin'></i>&nbsp; Build your own"
+    - label: "<i class='fas fa-cog'></i>&nbsp; Build your own"
       url: /docs/extensions/
 intro:
   excerpt: "Expand Creek's functionality with extensions"
@@ -19,7 +19,7 @@ kafka_row:
     title: "Creek Kafka"
     excerpt: |
       Build &amp; test services that utilise Kafka Clients to consume and produce data to and from Kafka.
-      <p>Apache Kafka is a real-time data streaming technology capable of handling trillions of events per day.
+      <p>Apache Kafka® is a real-time data streaming technology capable of handling trillions of events per day.
     url: https://github.com/creek-service/creek-kafka/tree/main/client-extension # todo: differentiate this and the kafka link above.
     btn_label: "<i class='fas fa-solid fa-book-open'></i>&nbsp; Read More"
     btn_class: "btn--primary"
