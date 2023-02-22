@@ -1,6 +1,7 @@
 ---
-title: "Creek Extensions"
 permalink: /extensions/
+title: "Creek Extensions"
+description: "Creek is designed from the ground up to be extendable. This page lists current extensions to Creek."
 layout: splash
 excerpt: "Expand Creek's functionality with extensions"
 header:

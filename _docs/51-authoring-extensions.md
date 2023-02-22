@@ -1,7 +1,7 @@
 ---
 title: "Authoring Creek extensions"
 permalink: /docs/authoring-extensions/
-excerpt: "Howto on creating your own extensions to Creek"
+description: Learn how to create your own extentions to Creek, making Creek work for your organisation. 
 toc: true
 ---
 

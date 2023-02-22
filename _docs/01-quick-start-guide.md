@@ -1,7 +1,7 @@
 ---
 title: "Quick-Start Guide"
 permalink: /docs/quick-start-guide/
-excerpt: "How to quickly get up and running with Creek."
+description: Get up and running with Creek quickly. Creek provides an opinionated way of quickly developing and testing Kafka based microservices.
 toc: false
 ---
 

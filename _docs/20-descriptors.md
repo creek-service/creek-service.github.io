@@ -1,7 +1,7 @@
 ---
 title: "Creek Descriptors"
 permalink: /docs/descriptors/
-excerpt: "Discover the different types of descriptors used in Creek."
+description: "Discover the different types of descriptors used in Creek."
 toc: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 permalink: /about/
-title: "About"
+title: About
+description: What is Creek Service and where did it come from?
 ---
 
 Creek is an opinionated way of quickly building *and testing* an ecosystem of interconnected microservices.

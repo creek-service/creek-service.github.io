@@ -1,7 +1,7 @@
 ---
 title: "License"
 permalink: /docs/license/
-excerpt: "License for Creek Service."
+description: Creek is free to use under the Apache 2.0 license
 toc: false
 ---
 

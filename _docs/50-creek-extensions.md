@@ -1,6 +1,7 @@
 ---
-title: "Creek Extensions"
 permalink: /docs/extensions/
+title: "Creek Extensions"
+description: Learn how to create your own extentions to Creek, customising Creek to work the technologies and data formats used in your enterprise.
 layout: single
 toc: false
 ---

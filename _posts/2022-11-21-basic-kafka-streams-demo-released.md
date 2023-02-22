@@ -1,5 +1,6 @@
 ---
 title: "New tutorial: Basic Kafka Streams"
+description: This is the first in a series of tutorials aimed at demonstrating the ease of use, power & features of Creek
 categories:
  - tutorial
  

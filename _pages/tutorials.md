@@ -2,6 +2,7 @@
 title: "Tutorials"
 layout: splash
 permalink: /tutorials/
+description: Unlock the basics and more advanced features of Creek and its extensions with this step-by-step tutorials
 header:
   overlay_image: /assets/images/background-2.png
 excerpt: >
