@@ -1,7 +1,7 @@
 ---
 title: "Authoring Creek test extensions"
 permalink: /docs/authoring-test-extensions/
-excerpt: "Howto on creating your own extensions to the Creek system tests"
+description: Learn how to create your own test extentions to Creek, allowing you to test service business logic against the Docker container you'll deploy through to production
 toc: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+description: Creek service terms and privacy policy
 toc: true
 ---
 
