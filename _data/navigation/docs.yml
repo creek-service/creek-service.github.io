@@ -18,10 +18,8 @@
       url: /docs/authoring-test-extensions/
 - title: Meta
   children:
-#    - title: "History"
-#      url: /docs/history/
-#    - title: "Contributing"
-#      url: /docs/contributing/
+    - title: "Contributing"
+      url: /docs/contributing/
     - title: "License"
       url: /docs/license/
     - title: "Terms &amp; Privacy Policy"
