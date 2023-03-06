@@ -20,6 +20,6 @@ Ordered by simplicity, with the easiest at the top:
    (how to use the template repo is covered in the [Basic Kafka Streams Tutorial](/basic-kafka-streams-demo)), or
 3. **Create your own template repository**: Clone and customise the Creek [aggregate template repository](/aggregate-template),
    to better meet your organisations needs.
-4. **Wait for docs**: Wait for use to get around to [writing docs for manually adding Creek to a repository](https://github.com/creek-service/creek-service.github.io/issues/30).
+4. **Read a [guide](/docs/manual-quick-start)** for manually adding Creek.
 5. **Unpick the aggregate template**: Use the Creek [aggregate template repository](/aggregate-template) as documentation 
    of how to manually add Creek to an existing project. 

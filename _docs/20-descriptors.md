@@ -68,6 +68,8 @@ to the topic.
 Owned resources are managed by the service that owns them. For example, service's with owned Kafka topics will
 ensure the topic exists, and any schemas registered, when the service starts up and Creek is initialised.
 
+[todo]: why are descriptors interfaces and not classes...
+
 [componentDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/ComponentDescriptor.java
 [serviceDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/ServiceDescriptor.java
 [aggDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/AggregateDescriptor.java

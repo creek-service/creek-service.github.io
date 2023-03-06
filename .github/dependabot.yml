@@ -10,3 +10,13 @@ updates:
     open-pull-requests-limit: 50
     schedule:
       interval: monthly
+  - package-ecosystem: gradle
+    directory: /examples/gradle-kotlin
+    open-pull-requests-limit: 50
+    schedule:
+      interval: monthly
+  - package-ecosystem: gradle
+    directory: /examples/gradle-groovy
+    open-pull-requests-limit: 50
+    schedule:
+      interval: monthly

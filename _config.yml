@@ -43,6 +43,7 @@ exclude:
   - README
   - tmp
   - /_branding
+  - /examples
 
 # Collections
 collections:

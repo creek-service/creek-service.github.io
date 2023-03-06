@@ -2,8 +2,10 @@
   children:
     - title: "Quick-Start Guide"
       url: /docs/quick-start-guide/
-    - title: "Aggregate Template"
+    - title: "Aggregate Template (Recommended)"
       url: /aggregate-template
+    - title: "Manual quick-start"
+      url: /docs/manual-quick-start/
 - title: Creek components
   children:
     - title: "Descriptors"
