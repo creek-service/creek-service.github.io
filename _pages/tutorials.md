@@ -42,6 +42,6 @@ New tutorials will be added over time, so check back in occasionally for updates
 
 <div class="feature__wrapper"></div>
 
-# Kafka Streams tutorials
+## Kafka Streams tutorials
 
 {% include feature_row id="row_1" %}
