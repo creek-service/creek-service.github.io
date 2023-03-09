@@ -3,11 +3,11 @@
     - title: "Quick-Start Guide"
       url: /docs/quick-start-guide/
     - title: "Aggregate Template"
-      url: /aggregate-template
+      url: /aggregate-template/
 - title: Creek components
   children:
     - title: "Descriptors"
-      url: /docs/descriptors
+      url: /docs/descriptors/
 - title: Extending Creek
   children:
     - title: "Existing extensions"

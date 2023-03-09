@@ -75,6 +75,6 @@ ensure the topic exists, and any schemas registered, when the service starts up 
 [creekKafka]: https://github.com/creek-service/creek-kafka
 [systemTest]: https://github.com/creek-service/creek-system-test
 [bcDDD]: https://martinfowler.com/bliki/BoundedContext.html
-[basicKsDemo]: {{ "/basic-kafka-streams-demo" | relative_url }}
+[basicKsDemo]: {{ "/basic-kafka-streams-demo/" | relative_url }}
 
 [todo]: http:// update links to docs, not repos, when docs exist
