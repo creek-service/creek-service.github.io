@@ -89,3 +89,4 @@ defaults:
 repos_with_docs:
   - name: aggregate-template
   - name: basic-kafka-streams-demo
+  - name: ks-connected-services-demo

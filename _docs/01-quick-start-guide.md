@@ -11,8 +11,10 @@ utilising a microservice architecture, running on top of Apache Kafka® and othe
 If you're new to Creek, then we'd suggest one of this three approaches to getting started.
 Ordered by simplicity, with the easiest at the top:
 
-1. **Try out a tutorial**. For example the Creek equivalent of a _Hello World_ app: the
-   [Basic Kafka Streams Tutorial](/basic-kafka-streams-demo/),
+1. **Try out a tutorial**. The recommended quick-start tutorial series would be:
+   1. [Basic Kafka Streams Tutorial](/basic-kafka-streams-demo/)
+   2. [Kafka Streams Connecting Services Tutorial](/ks-connected-services-demo/)
+   3. Upcoming "Connecting Aggregates Tutorial". Planned under [Issue-259 <i class="fas fa-external-link-alt"></i>](https://github.com/creek-service/creek-kafka/issues/259)
    or head on over to the [Tutorials page](/tutorials/) for a full list, or
 2. **Use a template repository**: Dive into the Creek [aggregate template repository](/aggregate-template/). 
    Let the template do all the hard work of bootstrapping and configuring a new repository, 
