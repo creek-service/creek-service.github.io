@@ -26,15 +26,20 @@ row_1:
   - image_path: /assets/images/tutorial-ks-connect-services.svg
     alt: "Service composition"
     title: "Service composition"
-    excerpt:  >
+    url: "/ks-connected-services-demo/"
+    btn_class: "btn--primary"
+    btn_label: "<i class='fas fa-book-open'></i>&nbsp; View Tutorial"
+    excerpt: |
       Learn how to use the outputs of one service as the inputs to another, within the same aggregate.
-      <br><br>**Coming soon...**
+      In this tutorial you will learn about:
+       * Linking services together within the same aggregate.
+       * Writing system tests that test the combined functionality of multiple services.      
   - image_path: /assets/images/tutorial-ks-connect-aggregates.svg
     alt: "Aggregate composition"
     title: "Aggregate composition"
     excerpt: >
       Learn how to compose aggregates together to build a microservice ecosystem.
-      <br><br>**Coming later...**
+      <br><br>**Coming soon...**
 ---
 
 On this page you'll find tutorials to lead you through the different aspects and features of Creek.

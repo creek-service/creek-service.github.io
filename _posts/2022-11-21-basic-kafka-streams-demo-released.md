@@ -1,11 +1,14 @@
 ---
 title: "New tutorial: Basic Kafka Streams"
-description: This is the first in a series of tutorials aimed at demonstrating the ease of use, power & features of Creek
+description: This is the first in the quick-start series of tutorials, aimed at demonstrating the ease of use, power & features of Creek.
 categories:
  - tutorial
  
 tags:
   - system-test
+  - template-repos
+  - debugging
+  - code-coverage
   - kafka-streams
 ---
 
