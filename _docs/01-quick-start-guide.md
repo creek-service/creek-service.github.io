@@ -14,8 +14,10 @@ Ordered by simplicity, with the easiest at the top:
 1. **Try out a tutorial**. The recommended quick-start tutorial series would be:
    1. [Basic Kafka Streams Tutorial](/basic-kafka-streams-demo/)
    2. [Kafka Streams Connecting Services Tutorial](/ks-connected-services-demo/)
-   3. Upcoming "Connecting Aggregates Tutorial". Planned under [Issue-259 <i class="fas fa-external-link-alt"></i>](https://github.com/creek-service/creek-kafka/issues/259)
+   3. Upcoming "Connecting Aggregates Tutorial". Planned under [Issue-259 <i class="fas fa-external-link-alt"></i>](https://github.com/creek-service/creek-kafka/issues/259).
+
    or head on over to the [Tutorials page](/tutorials/) for a full list, or
+
 2. **Use a template repository**: Dive into the Creek [aggregate template repository](/aggregate-template/). 
    Let the template do all the hard work of bootstrapping and configuring a new repository, 
    ready to develop, build and test your microservices, 
