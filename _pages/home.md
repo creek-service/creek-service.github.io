@@ -7,8 +7,8 @@ header:
   actions:
     - label: "<i class='fas fa-cog'></i> Get started"
       url: "/docs/quick-start-guide/"
-    - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.3.2 Preview Release"
-      url: "/releases/2023/02/16/v0.3.2-released.html"
+    - label: "<i class='fas fa-sharp fa-solid fa-cube'></i> v0.4.0 Preview Release"
+      url: "/releases/2023/03/14/v0.4.0-released.html"
 excerpt: |
   Quickly build, test and link an ecosystem of microservices,  
   using Apache Kafka® clients, Kafka Streams and more...
