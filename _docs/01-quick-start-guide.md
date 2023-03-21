@@ -14,7 +14,7 @@ Ordered by simplicity, with the easiest at the top:
 1. **Try out a tutorial**. The recommended quick-start tutorial series would be:
    1. [Basic Kafka Streams Tutorial](/basic-kafka-streams-demo/)
    2. [Kafka Streams Connecting Services Tutorial](/ks-connected-services-demo/)
-   3. Upcoming "Connecting Aggregates Tutorial". Planned under [Issue-259 <i class="fas fa-external-link-alt"></i>](https://github.com/creek-service/creek-kafka/issues/259).
+   3. [Kafka Streams Aggregate API tutorial](/ks-aggregate-api-demo).
 
    or head on over to the [Tutorials page](/tutorials/) for a full list, or
 
