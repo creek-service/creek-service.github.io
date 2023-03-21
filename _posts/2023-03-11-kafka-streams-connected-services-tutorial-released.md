@@ -1,6 +1,9 @@
 ---
 title: "New tutorial: Kafka Streams - Connected Services"
-description: This is the second in the quick-start series of tutorials, aimed at demonstrating the ease of use, power & features of Creek.
+description: |
+  This is the second in the quick-start series of tutorials, aimed at demonstrating the ease of use, power & features of Creek.
+  This tutorial covers how to add additional services to an existing aggregate and how to combine, and test, multiple services
+  to build business functionality. 
 categories:
  - tutorial
  
