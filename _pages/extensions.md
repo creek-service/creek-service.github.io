@@ -21,7 +21,7 @@ kafka_row:
     excerpt: |
       Build &amp; test services that utilise Kafka Clients to consume and produce data to and from Kafka.
       <p>Apache Kafka® is a real-time data streaming technology capable of handling trillions of events per day.
-    url: https://github.com/creek-service/creek-kafka/tree/main/client-extension # todo: differentiate this and the kafka link above.
+    url: https://www.creekservice.org/creek-kafka/#kafka-clients-extension
     btn_label: "<i class='fas fa-solid fa-book-open'></i>&nbsp; Read More"
     btn_class: "btn--primary"
 
@@ -32,7 +32,7 @@ kafka_streams_row:
     excerpt: |
       Build &amp; test Kafka Streams based microservices.
       <p>Kafka Streams layers advanced event stream processing on top of Kafka.
-    url: https://github.com/creek-service/creek-kafka/tree/main/streams-extension # todo: differentiate this and the kafka link above.
+    url: https://www.creekservice.org/creek-kafka/#kafka-streams-extension
     btn_label: "<i class='fas fa-solid fa-book-open'></i>&nbsp; Read More"
     btn_class: "btn--primary"
 ---

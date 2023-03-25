@@ -72,7 +72,7 @@ ensure the topic exists, and any schemas registered, when the service starts up 
 [serviceDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/ServiceDescriptor.java
 [aggDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/AggregateDescriptor.java
 [creekServiceEntryPoint]: https://github.com/creek-service/creek-service/blob/main/context/src/main/java/org/creekservice/api/service/context/CreekServices.java
-[creekKafka]: https://github.com/creek-service/creek-kafka
+[creekKafka]: https://www.creekservice.org/creek-kafka
 [systemTest]: https://github.com/creek-service/creek-system-test
 [bcDDD]: https://martinfowler.com/bliki/BoundedContext.html
 [basicKsDemo]: {{ "/basic-kafka-streams-demo/" | relative_url }}
