@@ -4,11 +4,11 @@ sitemap: false
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap>
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+  <sitemap>
     <loc>{{ site.url | append: "/sitemap.xml" }}</loc>
-</sitemap>{% for repo in site.repos_with_docs %}
-<sitemap>
+  </sitemap>{% for repo in site.repos_with_docs %}
+  <sitemap>
     <loc>{{ site.url | append: "/" | append: repo.name | append: "/sitemap.xml" }}</loc>
 </sitemap>{% endfor %}
 </sitemapindex>
