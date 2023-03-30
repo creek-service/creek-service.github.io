@@ -10,5 +10,5 @@ sitemap: false
   </sitemap>{% for repo in site.repos_with_docs %}
   <sitemap>
     <loc>{{ site.url | append: "/" | append: repo.name | append: "/sitemap.xml" }}</loc>
-</sitemap>{% endfor %}
+  </sitemap>{% endfor %}
 </sitemapindex>

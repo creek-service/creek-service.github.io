@@ -2,12 +2,16 @@
   children:
     - title: "Quick-Start Guide"
       url: /docs/quick-start-guide/
+    - title: "What is Creek?"
+      url: /docs/what-is-creek/
     - title: "Aggregate Template"
       url: /aggregate-template/
 - title: Creek components
   children:
     - title: "Descriptors"
       url: /docs/descriptors/
+    - title: "System tests"
+      url: /creek-system-test/
 - title: Extending Creek
   children:
     - title: "Existing extensions"

@@ -10,7 +10,11 @@ Creek uses different types of descriptors to allow users to define metadata for 
 ## Component descriptors
 
 Creek defines two types of components: aggregates and services, with the former being an abstraction, with a defined
-public API, around a one or more of the latter. Both share a [common base type][componentDescriptor].
+public API, around a one or more of the latter. Both share a [common base type <i class="fas fa-external-link-alt"></i>][componentDescriptor]{:target="_blank"}.
+
+Both kinds of component descriptor need registering, so they are discoverable by [Creek's system tests][systemTest].
+The [aggregate template repository][aggTemp] handles this registration for you. 
+If not using the repository, the [Kafka Service aggregate api tutorial][regCompDescriptors] covers how to register the descriptors.
 
 ### Service descriptor
 
@@ -25,7 +29,7 @@ or ones defined inline by the service, and in which case they are resources inte
 Check out the [basic Kafka Streams tutorial][basicKsDemo] to see them in action.
 {: .notice--info}
 
-When a microservice is starting up, it initialised Creek by passing its service descriptor to [Creek to get a CreekContext][creekServiceEntryPoint].
+When a microservice is starting up, it initialised Creek by passing its service descriptor to [Creek to get a CreekContext <i class="fas fa-external-link-alt"></i>][creekServiceEntryPoint]{:target="_blank"}.
 
 The [Creek system tests][systemTest] discover component descriptors on the class path to allow it to start services, 
 discover what 3rd party services are needed, like Kafka, and to work with external resources, such as Kafka topics.
@@ -36,14 +40,15 @@ A Creek 'aggregate' is simply the public API of a logical grouping of services t
 e.g. inventory tracking , or customer data, etc. The aggregate provides a higher level abstract, encapsulating the other
 components it contains.
 
-In Domain-driven-development nomenclature this would be known as a [Bounded Context][bcDDD].
+In Domain-driven-development nomenclature this would be known as a [Bounded Context <i class="fas fa-external-link-alt"></i>][bcDDD]{:target="_blank"}.
 {: .notice}
 
 The aggregate descriptor defines the aggregate's name and its public API. The public API is defined as the set of
 [resource descriptors](#resource-descriptor), detailing the resources services from other aggregates are allowed
 to access, e.g. an aggregate may define output topics that others can consume.
 
-[todo2]: add a protip here linking to the demo on linking aggregates once complete.
+**ProTip:** The [Kafka Streams aggregate api tutorial][aggTutorial] covers defining and using an aggregate's API.
+{: .notice--info}
 
 Normally, an aggregate contains services and those services are developed in the aggregate's own code repository.
 However, it is also possible to use aggregates to group multiple other aggregates together, allowing for multiple
@@ -72,9 +77,10 @@ ensure the topic exists, and any schemas registered, when the service starts up 
 [serviceDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/ServiceDescriptor.java
 [aggDescriptor]: https://github.com/creek-service/creek-platform/blob/main/metadata/src/main/java/org/creekservice/api/platform/metadata/AggregateDescriptor.java
 [creekServiceEntryPoint]: https://github.com/creek-service/creek-service/blob/main/context/src/main/java/org/creekservice/api/service/context/CreekServices.java
-[creekKafka]: https://www.creekservice.org/creek-kafka
-[systemTest]: https://github.com/creek-service/creek-system-test
+[creekKafka]: /creek-kafka/
+[systemTest]: /creek-system-test/
 [bcDDD]: https://martinfowler.com/bliki/BoundedContext.html
-[basicKsDemo]: {{ "/basic-kafka-streams-demo/" | relative_url }}
-
-[todo]: http:// update links to docs, not repos, when docs exist
+[basicKsDemo]: /basic-kafka-streams-demo/
+[aggTemp]: /aggregate-template/
+[regCompDescriptors]: /ks-aggregate-api-demo/non-creek-aggregate-descriptor#discoverable-descriptors
+[aggTutorial]: /ks-aggregate-api-demo/
