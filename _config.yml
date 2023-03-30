@@ -88,6 +88,7 @@ defaults:
 # List of other repos with docs to include in the site index:
 repos_with_docs:
   - name: creek-kafka
+  - name: creek-system-test
   - name: aggregate-template
   - name: basic-kafka-streams-demo
   - name: ks-connected-services-demo
