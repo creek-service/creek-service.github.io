@@ -6,7 +6,8 @@ toc: true
 ---
 
 Creek is a set of Java libraries, development patterns and GitHub template repositories designed to enable engineers 
-to quickly develop an ecosystem of interconnected, yet decoupled, microservices on top of Apache Kafka® and other technologies.
+to quickly develop, test and debug an ecosystem of interconnected, yet decoupled, microservices on top of Apache Kafka® 
+and other technologies.
 
 Creek helps organisations move towards using Kafka as the central nervous system running at the core of their organisation.
 Creek can help organisations automate integrating Kafka into their Data Mesh.
