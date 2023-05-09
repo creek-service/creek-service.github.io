@@ -8,7 +8,7 @@ toc: false
 Put simple, Creek helps users and organisations quickly develop business functionality, 
 utilising a microservice architecture, running on top of Apache Kafka® and other external services.
 
-If you're new to Creek, then we'd suggest one of this three approaches to getting started.
+If you're new to Creek, then we'd suggest one of these approaches to getting started,
 Ordered by simplicity, with the easiest at the top:
 
 1. **Try out a tutorial**. The recommended quick-start tutorial series would be:
