@@ -107,6 +107,11 @@ Bowtie was unknown to us when we started writing our own comparison and, at the 
 The latest functional results can be viewed on the [microsite](https://www.creekservice.org/json-schema-validation-comparison/functional).
 {: .notice--info}
 
+The two graphs visualise the overall number of tests each implementation successfully handles in the draft versions it supports.
+
+{% include figure image_path="/assets/images/validator-required-functionality-comparison.png" alt="Optional validator functionality" %}
+{% include figure image_path="/assets/images/validator-optional-functionality-comparison.png" alt="Required validator functionality" %}
+
 At the time of writing, the top three implementations for _required_ functionality are `DevHarrel`, `Medeia` and `ScheamFriend`.
 * `DevHarrel` only supports the latest two schema drafts, `DRAFT_2020-12` and `DRAFT_2019_09`, and doesn't score so well for optional features.
 * `Medeia` only supports older schema drafts, up to `DRAFT_7`.
@@ -118,6 +123,18 @@ To our mind, `SchemaFriend` wins in the feature comparison.
 
 The latest performance results can be viewed on the [microsite](https://www.creekservice.org/json-schema-validation-comparison/performance).
 {: .notice--info}
+
+The performance comparison benchmarks two different use-cases.
+ * The first `validate` benchmark runs each implementation the functional test suite.
+ * The second `serde` benchmark runs each implementation through serialising a simple Java object to JSON and back, validating the JSON. 
+
+The graphs below capture the essence of the results, covering the latest and an older draft specification. 
+More information is available on the [microsite](https://www.creekservice.org/json-schema-validation-comparison/performance).
+
+{% include figure image_path="/assets/images/validator-validate-performance-2020.png" alt="Validator performance DRAFT-2020-12" %}
+{% include figure image_path="/assets/images/validator-validate-performance-7.png" alt="Validator performance DRAFT-7" %}
+{% include figure image_path="/assets/images/validator-serde-performance-2020.png" alt="Serde performance DRAFT-2020-12" %}
+{% include figure image_path="/assets/images/validator-serde-performance-7.png" alt="Serde performance DRAFT-7" %}
 
 At the time of writing, benchmarking of older schema drafts highlighted `Medeia` and `Everit` as clear winners.
 For the more up-to-date schema drafts, `Skema`, `DevHarrel` and `SchemaFriend` lead the pack. 
