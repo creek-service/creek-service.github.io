@@ -12,6 +12,9 @@ and other technologies.
 Creek helps organisations move towards using Kafka as the central nervous system running at the core of their organisation.
 Creek can help organisations automate integrating Kafka into their Data Mesh.
 
+Creek enables functional testing of your containerised microservices, giving you a higher degree of confidence that 
+all the code wired together do what you intend.
+
 ## Project status
 
 The project is currently in **alpha release** and in active development.
@@ -44,7 +47,7 @@ Creek works _with_ a technology, making it easier to use, rather than wrapping, 
 
 Creek is about rapid development of business functionality. As every good engineer knows, repeated tasks should be automated.
 Creek provides template repositories and automated workflows to take the hard work out of repetitive tasks, such as creating
-an empty microservice.
+an empty repository, or adding a new microservice.
 
 Creek is about producing services that work. Perhaps the biggest part of Creek is its 
 [system tests][systemTest]: YAML based black-box functional testing of services running in Docker containers. 
@@ -57,7 +60,7 @@ Creek is designed to be extendable. It's currently focused on Kafka, but that's 
 ### Can I use Creek without GitHub?
 
 We recognise that not everyone uses GitHub. While Creek comes with GitHub template repositories to make creating a new repository a breeze,
-it's totally possible to use Creek outside of GitHub. The GitHub workflows call simple scripts, and it would be a fairly simple task
+it's totally possible to use Creek outside of GitHub. The GitHub workflows call simple scripts, and it would be a fairly trivial task
 to migrate the template to another provider, or to use them from your local machine.
 
 ### Can I use Creek with Maven / other build tool?
@@ -68,12 +71,17 @@ uses Maven, or any other build tool, then Creek can work with that. At its core,
 If you want to make use of the template repositories, then we'd recommend taking a copy of ours, and updating to use
 your build tool of choice, and creating templates for your organisation or project.
 
+Creek provides a few custom Gradle plugins: [one][sysTestGradle] for running system tests, and [one][jsonSchemaGradle]
+for generating JSON schemas. The functionality of these will need replicating in the Maven world.
+The Gradle plugins are thin wrappers around non-Gradle specific core functionality, which can be invoked directly.
+If you're feeling adventurous or altruistic, consider writing Maven build plugins and committing them back to the project. 
+
 ### Can I use Creek without the template repos?
 
 The [aggregate template repository <i class="fas fa-external-link-alt"></i>][aggTemp]{:target="_blank"} is designed 
-to make creating a new repository, to host your microservices, a doddle.
-However, there's nothing in there you can't replicate yourself. The template sets up a lot of cool features for you, like
-[system tests <i class="fas fa-external-link-alt"></i>][aggSystemTest]{:target="_blank"} and 
+to make creating a new repository, to host your microservices, a walk in the park.
+However, there's nothing in there you can't replicate yourself. The template sets up a lot of cool features for you, 
+like [system tests <i class="fas fa-external-link-alt"></i>][aggSystemTest]{:target="_blank"} and 
 [debugging services in docker contains <i class="fas fa-external-link-alt"></i>][serviceDebug]{:target="_blank"}, 
 but by all means... use Creek how-ever you like.
 
@@ -89,7 +97,8 @@ system tests :smile:.
 ### Can I use a language other than Java?
 
 Being initially focused on Kafka Streams based microservices, Creek is understandably Java-centric at the moment.
-That said, it should work well with other JVM based languages... feel free to raise issues on GitHub if it doesn't.
+That said, it should work well with other JVM based languages... feel free to raise issues, or better still PRs!, 
+on GitHub if it doesn't.
 
 If you're not using a JVM based language, then Creek currently isn't for you. Though there is [work planned to move 
 beyond the JVM <i class="fas fa-external-link-alt"></i>][beyondJava]{:target="_blank"}.
@@ -101,6 +110,8 @@ the service within the Docker container is using. To make the service discoverab
 
 [beyondJava]: https://github.com/creek-service/creek-service/issues/17
 [beyondKafka]: https://github.com/creek-service/creek-service/issues/18
+[jsonSchemaGradle]: https://github.com/creek-service/creek-json-schema-gradle-plugin
+[sysTestGradle]: https://github.com/creek-service/creek-system-test-gradle-plugin
 [systemTest]: /creek-system-test/
 [quickStart]: /tutorials/#quick-start-tutorial-series
 [mvp]: https://github.com/orgs/creek-service/projects/3
