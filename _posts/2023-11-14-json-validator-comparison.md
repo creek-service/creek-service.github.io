@@ -1,9 +1,13 @@
 ---
 title: Comparison of JSON schema validator implementations
-description: Before writing a JSON serde implementation that validates JSON payloads against schemas, we first had to determine which JVM-based JSON schema validation library to use. Turns out this took a little work...
-categories:
+description: |
+  Before writing a JSON serde implementation that validates JSON payloads against schemas, 
+  we first had to determine which JVM-based JSON schema validation library to use. 
+  Turns out this took a little work...
 header:
   image: /assets/images/json.png
+categories:
+  - articles
 tags:
   - kafka
   - json
@@ -37,10 +41,12 @@ Conversely, _backwards_ compatibility means data written with one schema version
 
 {% include figure image_path="/assets/images/fwd-bck-schema-compatability.svg" alt="Forward and backwards schema compatability" %}
 
-Backward compatibility means that **readers** with a **newer** schema can correctly parse data written using an older schema.
+Backward compatibility means that **readers** with a **newer** schema can correctly parse data written using an older schema, 
+i.e. **new schemas can read old data**.
 {: .notice--info}
 
 Forwards compatibility means that **readers** with an **older** schema can correctly parse data written using a newer schema.
+i.e. **old schemas can read new data**.
 {: .notice--info}
 
 Given that data can live in Kafka topics for a long time, e.g. key compacted changelog topics or topics will long, or even no, deletion policies,
@@ -93,11 +99,13 @@ and as we're nice people we open sourced [the code](https://github.com/creek-ser
 The functional comparison is achieved by running each implementation through the [standard set of test cases](https://github.com/json-schema-org/JSON-Schema-Test-Suite).
 This covers core _required_ functionality and _optional_ features.
 
-The performance comparison is achieved by benchmarking each implementation using the [Java Microbenchmarking Harness](https://github.com/openjdk/jmh).
+The performance comparison is achieved by benchmarking each implementation using the [Java Micro-benchmarking Harness](https://github.com/openjdk/jmh).
 
 The site auto-updates as new versions of the libraries under test are released, and we're actively encouraging new validator implementations to be added to the test.
 
-**Note**: Project [Bowtie](https://github.com/victools/jsonschema-generator) is looking to provide functional comparison of _all_ validator implementations, not just JVM based ones.
+The site is linked to from the [implementations page on the JSON Schema website](https://json-schema.org/implementations#benchmarks).
+
+**Note**: Project [Bowtie](https://github.com/bowtie-json-schema/bowtie) is looking to provide functional comparison of _all_ validator implementations, not just JVM based ones.
 Bowtie was unknown to us when we started writing our own comparison and, at the time of writing, doesn't cover the optional functional tests.
 {: .notice--info}
 
