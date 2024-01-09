@@ -58,6 +58,10 @@ Any change that breaks compatability needs to be carefully managed to ensure the
 in our experience, is often better achieved by producing data to a new topic in tandem with the old for a period of time.
 Turning off and deleting the old topic once all consumers have migrated.
 
+See the follow-on post series [Evolving JSON Schemas]({% post_url 2024-01-08-json-schema-evolution-part-1 %}) 
+for more info on the specifics of evolving JSON Schemas.
+{: .notice--info}
+
 ### Schema registries
 
 The requirement for schemas to be transitively forwards and backwards compatible, i.e. compatible with all previous and future schemas, 
