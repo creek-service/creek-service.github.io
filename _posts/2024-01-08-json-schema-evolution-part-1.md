@@ -53,7 +53,13 @@ i.e. **old schemas can read new data**.
 
 ## Is Confluent's JSON Schema evolution fit for purpose?
 
-While we're likely all familiar and comfortable with the standard schema evolution rules seen with other schema types, e.g. 
+Looking at the posts on StackOverflow and GitHub it seems there is some confusion. 
+There's lots of talk about not being able to evolve schemas in a meaningful way, especially if your aim is _full_ compatability.
+People are running into `PROPERTY_ADDED_TO_OPEN_CONTENT_MODEL` and `PROPERTY_REMOVED_FROM_CLOSED_CONTENT_MODEL` errors even 
+when performing changes they expect to be compatible.
+
+While we're likely all familiar and comfortable with the standard schema evolution rules for required properties
+seen with other schema types, e.g. 
 * Not being able to remove _required_ properties in a _forwards_ compatible way: 
   remember, that's old schemas reading new data. 
   Old schemas that still require the property can't read new data that may not contain the property.
@@ -63,8 +69,14 @@ While we're likely all familiar and comfortable with the standard schema evoluti
 * Combining the previous two means with _Full_ compatability _required_ properties can neither be added nor removed.
 
 We also intuitively expect adding and removing optional properties to be _fully_ compatible.
-After all, they're optional, right? 
+After all, they're optional, right? Optional properties can be added and removed in any other schema type I can think of.
+
 Unfortunately, this is not how the Confluent has implemented it's JSONs schemas compatability checks in the Schema Registry.
+{: .notice--warning}
+
+It's this inability to be able to add and remove optional properties, when looking for _full_ compatability, 
+that's causing people so much confusion. So lets look into what the schema registry is doing and why that results
+in this unintuitive functionality.
 
 The diagram below shows how the schema registry performs compatibility checks when a new schema version `v4` 
 is being added.
