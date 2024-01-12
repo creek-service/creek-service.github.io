@@ -506,6 +506,14 @@ class Example {
 
 Presently, these evolution check are implemented client side in the [Creek JSON serde under development](https://github.com/creek-service/creek-kafka/issues/25).
 Server-side checks are set to `NONE`. This does introduce race conditions when registering new schemas.
+
+
+
+>>>>>>> Todo: link issue id. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
 {: .notice--warning}
 
 The above code, combined with appropriate calls to `ensureProducerSchema` and `ensureConsumerSchema` when creating 
