@@ -267,8 +267,9 @@ Data becomes more _self-service_. This is a _good thing!_
 In such an operational model, the producing team _owns_ the data products it publishes for other teams to consume.
 This model would break if consuming teams were free to register any consuming schema they liked. 
 
-Consider what of would happen in the walk through above if v3 of the consuming app had published a consuming schema
-with the new `status` property as an `integer` rather than the `enum`? Maybe because the left the design meeting thinking that's what had been agreed.
+Consider what would have happened in the walk through above if v3 of the consuming app had published a consuming schema
+with the new `status` property as an `integer` rather than an `enum`? 
+Maybe because they left the design meeting thinking that's what had been agreed.
 The v3 consuming schema would then be:
 
 ```json
@@ -505,6 +506,14 @@ class Example {
 
 Presently, these evolution check are implemented client side in the [Creek JSON serde under development](https://github.com/creek-service/creek-kafka/issues/25).
 Server-side checks are set to `NONE`. This does introduce race conditions when registering new schemas.
+
+
+
+>>>>>>> Todo: link issue id. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
 {: .notice--warning}
 
 The above code, combined with appropriate calls to `ensureProducerSchema` and `ensureConsumerSchema` when creating 
