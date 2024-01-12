@@ -506,15 +506,10 @@ class Example {
 
 Presently, these evolution check are implemented client side in the [Creek JSON serde under development](https://github.com/creek-service/creek-kafka/issues/25).
 Server-side checks are set to `NONE`. This does introduce race conditions when registering new schemas.
-
-
-
->>>>>>> Todo: link issue id. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
-
-
 {: .notice--warning}
+
+We've raised [Issue #2927](https://github.com/confluentinc/schema-registry/issues/2927) in the Schema Registry GitHub repo
+to hopefully get the improved algorithm into the Schema Registry :crossed_fingers:.
 
 The above code, combined with appropriate calls to `ensureProducerSchema` and `ensureConsumerSchema` when creating 
 serializers and deserializers, respectively, results in appropriate schema compatibility checks to ensure system integrity, 
