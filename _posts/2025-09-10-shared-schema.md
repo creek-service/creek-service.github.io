@@ -345,7 +345,7 @@ For example, an `OrderItem` might be uniquely identified by a combination of `or
 ```
 
 The thing about keys is that the set of fields they contain almost never change. 
-Altering a key's schema is not an evolvable change, doing so would break systems that interact with the data.
+Altering the set of fields is not an evolvable change, doing so would break systems that interact with the data.
 In a well-engineered system, such a requirement would require a new data set to be curated with a _new_ key schema, dual-published for some time, while systems were migrated.
 
 As a key never changes, it's the perfect candidate for being shared. Doing so can actually _improve_ the readability, type-safety, and traceability of the data.
