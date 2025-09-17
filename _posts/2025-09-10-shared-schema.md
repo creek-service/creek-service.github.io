@@ -46,7 +46,7 @@ For those just looking for the juice, here are some quick guidelines around usin
 | Someone else's identifier / key schema  | ✅ - not a problem         | A `UserId`, a `ProductId`, etc. Think primary key columns in a DB, both single or multiple fields. OK to share as they don't evolve/change.                                    |
 | Someone else's object / value schema    | ❌ - avoid like the plague | A full, rich `User` or `Product` object. The schema is highly likely to evolve/change, which causes many issues.                                                               |
 | Common value types with a stable schema | ✅ - but, tread carefully  | `Currency`, `Country`, `EmailAddress`, etc. Think simple, common types, not provided by the schema implementation by default. OK to share as long as they don't evolve/change. |
-| Your own schema                         | ✅ - not a problem         | Anything you like, as you control its evolution.                                                                                                                               |
+| Your own schema                         | ✅ - not a problem         | Do as you like, share them, evolve them, remove them. As long as its evolvable.                                                                                                |
 
 
 ## An example scenario
