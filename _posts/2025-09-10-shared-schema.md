@@ -509,7 +509,7 @@ Before signing off, let's have a reminder of the guidance from the beginning of 
 | Another product's identifier / key schema | ✅: not a problem         | A `UserId` or `ProductId`, etc. Think primary key columns in a DB, both single or multiple fields. OK to share as they don't evolve/change.                                                                       |
 | Another product's object / value schema   | ❌: avoid like the plague | A full, rich `User` or `Product` object. The schema is highly likely to evolve/change, which causes issues                                                                                                        |
 | Common value types with a stable schema   | ✅: but, tread carefully  | `Currency` containing an ISO-4217 code, `EmailAddress` wrapping a string, etc. Think simple, common types, not provided by the schema implementation by default. OK to share as long as they don't evolve/change. |
-| The product's own schema                  | ✅: not a problem         | Anything you like, as you control its evolution.                                                                                                                                                                  |
+| The product's own schema                  | ✅: not a problem         | Do as you like, share them, evolve them, remove them. As long as its evolvable.                                                                                                                                   |
 
 
 Happy coding!
