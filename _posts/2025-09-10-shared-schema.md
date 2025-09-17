@@ -34,8 +34,8 @@ Thinking of your data in terms of being a product is a key principle of building
 {: .notice--info}
 
 When it comes to sharing a schema, these are two main questions to consider: 
-1. evolution; does the schema change over time?
-2. ownership: who is responsible for maintaining the schema and its evolution?
+1. **evolution**: does the schema change over time?
+2. **ownership**: who is responsible for maintaining the schema and its evolution?
 
 ## tl;dr
 
