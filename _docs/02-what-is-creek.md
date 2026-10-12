@@ -17,10 +17,9 @@ all the code wired together do what you intend.
 
 ## Project status
 
-The project is currently in **alpha release** and in active development.
+The project is currently in **beta release** and in active development.
 
-It is still missing a few key pieces of functionality before its ready for general release.
-For example, JSON serialization is currently being worked on, and windowed-key support will come next.
+It is still missing a few key pieces of functionality before it's ready for general release.
 See the [MVP Project board <i class="fas fa-external-link-alt"></i>][mvp]{:target="_blank"} for more info.
 
 In the meantime, feel free to run through the [quick-start tutorial series][quickStart] to get a feel for what Creek is all about.
